@@ -56,6 +56,8 @@ const it = [[0, 0], [0, 1]],
       twelve = [[8, 5], [8, 6], [8, 7], [8, 8], [8, 9], [8, 10]],
       quarter = [[1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8]],
       twenty = [[2, 0], [2, 1], [2, 2], [2, 3], [2, 4], [2, 5]],
+      am = [[0, 7], [0, 8]],
+      pm = [[0, 9], [0, 10]],
       hours = [twelve, one, two, three, four, five_hour, six, seven, eight, nine, ten_hour, eleven];
 
 function showTime(d) {
@@ -112,6 +114,12 @@ function showTime(d) {
     }
 
     showWord(hours[hour % 12]);
+
+    if (hour < 12) {
+      showWord(am);
+    } else {
+      showWord(pm);
+    }
 }
 
 showWord(it);
