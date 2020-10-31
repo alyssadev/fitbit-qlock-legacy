@@ -1,6 +1,13 @@
 import clock from "clock";
 import document from "document";
 import { preferences } from "user-settings";
+import { me as appbit } from "appbit";
+import { display } from "display";
+
+if (display.aodAvailable && appbit.permissions.granted("access_aod")) {
+  // no other changes required for AOD, already updating once per minute
+  display.aodAllowed = true;
+}
 
 // Update the clock every minute
 clock.granularity = "minutes";
