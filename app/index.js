@@ -49,11 +49,13 @@ const it = [[0, 0], [0, 1]],
       eight = [[7, 0], [7, 1], [7, 3]],
       nine = [[4, 7], [4, 8], [4, 9]],
       ten = [[3, 5], [3, 6], [3, 7]],
+      five_hour = [[6, 4], [6, 5], [6, 6], [6, 7]],
+      ten_hour = [[9, 0], [9, 1], [9, 2]],
       eleven = [[7, 5], [7, 6], [7, 7], [7, 8], [7, 9], [7, 10]],
       twelve = [[8, 5], [8, 6], [8, 7], [8, 8], [8, 9], [8, 10]],
       quarter = [[1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8]],
       twenty = [[2, 0], [2, 1], [2, 2], [2, 3], [2, 4], [2, 5]],
-      hours = [twelve, one, two, three, four, five, six, seven, eight, nine, ten, eleven];
+      hours = [twelve, one, two, three, four, five_hour, six, seven, eight, nine, ten_hour, eleven];
 
 function showTime(d) {
     hideAll();
@@ -63,6 +65,8 @@ function showTime(d) {
 
     let hour = d.getHours(),
         minute = d.getMinutes();
+    //let hour = 5,
+    //    minute = 10;
 
     if (minute >= 58 || minute <= 2) { // xx:58 - xx:02
         showWord(oclock);
