@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "@fitbit/sdk": "~5.0.0"
+    "@fitbit/sdk": "~5.0.0",
+    "@fitbit/sdk-cli": "^1.7.3"
   },
   "bugs": {
     "url": "https://github.com/alyssadev/fitbit-qlock/issues"
@@ -15,7 +16,9 @@
     "appDisplayName": "qlock",
     "iconFile": "resources/icon.png",
     "wipeColor": "",
-    "requestedPermissions": ["access_aod"],
+    "requestedPermissions": [
+      "access_aod"
+    ],
     "buildTargets": [
       "atlas",
       "vulcan"
