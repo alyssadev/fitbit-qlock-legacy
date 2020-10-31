@@ -1,17 +1,16 @@
 {
   "devDependencies": {
-    "@fitbit/sdk": "~5.0.0",
-    "@fitbit/sdk-cli": "^1.7.3"
+    "@fitbit/sdk": "~4.2.0"
   },
   "bugs": {
-    "url": "https://github.com/alyssadev/fitbit-qlock/issues"
+    "url": "https://github.com/alyssadev/fitbit-qlock-legacy/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alyssadev/fitbit-qlock.git"
+    "url": "https://github.com/alyssadev/fitbit-qlock-legacy.git"
   },
   "fitbit": {
-    "appUUID": "1b08efb5-c9b3-4995-bd04-825a9e48278e",
+    "appUUID": "1917cfde-d425-48b1-95f5-fa850b300220",
     "appType": "clockface",
     "appDisplayName": "qlock",
     "iconFile": "resources/icon.png",
@@ -20,8 +19,10 @@
       "access_aod"
     ],
     "buildTargets": [
-      "atlas",
-      "vulcan"
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
     ],
     "i18n": {
       "en-US": {
