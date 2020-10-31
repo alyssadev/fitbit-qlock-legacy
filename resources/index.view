@@ -1,0 +1,133 @@
+<svg id="clock">
+  <svg>
+    <!-- sorry the positioning is so weird, it's WIP -->
+    <text y="10%+20" x="10%+15">I</text>
+    <text y="10%+20" x="17%+15">T</text>
+    <text y="10%+20" x="24%+15">L</text>
+    <text y="10%+20" x="31%+15">I</text>
+    <text y="10%+20" x="38%+15">S</text>
+    <text y="10%+20" x="45%+15">A</text>
+    <text y="10%+20" x="52%+15">S</text>
+    <text y="10%+20" x="59%+15">A</text>
+    <text y="10%+20" x="66%+15">M</text>
+    <text y="10%+20" x="73%+15">P</text>
+    <text y="10%+20" x="80%+15">M</text>
+  </svg>
+  <svg>
+    <text y="18%+20" x="10%+15">A</text>
+    <text y="18%+20" x="17%+15">C</text>
+    <text y="18%+20" x="24%+15">Q</text>
+    <text y="18%+20" x="31%+15">U</text>
+    <text y="18%+20" x="38%+15">A</text>
+    <text y="18%+20" x="45%+15">R</text>
+    <text y="18%+20" x="52%+15">T</text>
+    <text y="18%+20" x="59%+15">E</text>
+    <text y="18%+20" x="66%+15">R</text>
+    <text y="18%+20" x="73%+15">D</text>
+    <text y="18%+20" x="80%+15">C</text>
+  </svg>
+  <svg>
+    <text y="26%+20" x="10%+15">T</text>
+    <text y="26%+20" x="17%+15">W</text>
+    <text y="26%+20" x="24%+15">E</text>
+    <text y="26%+20" x="31%+15">N</text>
+    <text y="26%+20" x="38%+15">T</text>
+    <text y="26%+20" x="45%+15">Y</text>
+    <text y="26%+20" x="52%+15">F</text>
+    <text y="26%+20" x="59%+15">I</text>
+    <text y="26%+20" x="66%+15">V</text>
+    <text y="26%+20" x="73%+15">E</text>
+    <text y="26%+20" x="80%+15">X</text>
+  </svg>
+  <svg>
+    <text y="34%+20" x="10%+15">H</text>
+    <text y="34%+20" x="17%+15">A</text>
+    <text y="34%+20" x="24%+15">L</text>
+    <text y="34%+20" x="31%+15">F</text>
+    <text y="34%+20" x="38%+15">S</text>
+    <text y="34%+20" x="45%+15">T</text>
+    <text y="34%+20" x="52%+15">E</text>
+    <text y="34%+20" x="59%+15">N</text>
+    <text y="34%+20" x="66%+15">F</text>
+    <text y="34%+20" x="73%+15">T</text>
+    <text y="34%+20" x="80%+15">O</text>
+  </svg>
+  <svg>
+    <text y="42%+20" x="10%+15">P</text>
+    <text y="42%+20" x="17%+15">A</text>
+    <text y="42%+20" x="24%+15">S</text>
+    <text y="42%+20" x="31%+15">T</text>
+    <text y="42%+20" x="38%+15">E</text>
+    <text y="42%+20" x="45%+15">R</text>
+    <text y="42%+20" x="52%+15">U</text>
+    <text y="42%+20" x="59%+15">N</text>
+    <text y="42%+20" x="66%+15">I</text>
+    <text y="42%+20" x="73%+15">N</text>
+    <text y="42%+20" x="80%+15">E</text>
+  </svg>
+  <svg>
+    <text y="50%+20" x="10%+15">O</text>
+    <text y="50%+20" x="17%+15">N</text>
+    <text y="50%+20" x="24%+15">E</text>
+    <text y="50%+20" x="31%+15">S</text>
+    <text y="50%+20" x="38%+15">I</text>
+    <text y="50%+20" x="45%+15">X</text>
+    <text y="50%+20" x="52%+15">T</text>
+    <text y="50%+20" x="59%+15">H</text>
+    <text y="50%+20" x="66%+15">R</text>
+    <text y="50%+20" x="73%+15">E</text>
+    <text y="50%+20" x="80%+15">E</text>
+  </svg>
+  <svg>
+    <text y="58%+20" x="10%+15">F</text>
+    <text y="58%+20" x="17%+15">O</text>
+    <text y="58%+20" x="24%+15">U</text>
+    <text y="58%+20" x="31%+15">R</text>
+    <text y="58%+20" x="38%+15">F</text>
+    <text y="58%+20" x="45%+15">I</text>
+    <text y="58%+20" x="52%+15">V</text>
+    <text y="58%+20" x="59%+15">E</text>
+    <text y="58%+20" x="66%+15">T</text>
+    <text y="58%+20" x="73%+15">W</text>
+    <text y="58%+20" x="80%+15">O</text>
+  </svg>
+  <svg>
+    <text y="66%+20" x="10%+15">E</text>
+    <text y="66%+20" x="17%+15">I</text>
+    <text y="66%+20" x="24%+15">G</text>
+    <text y="66%+20" x="31%+15">H</text>
+    <text y="66%+20" x="38%+15">T</text>
+    <text y="66%+20" x="45%+15">E</text>
+    <text y="66%+20" x="52%+15">L</text>
+    <text y="66%+20" x="59%+15">E</text>
+    <text y="66%+20" x="66%+15">V</text>
+    <text y="66%+20" x="73%+15">E</text>
+    <text y="66%+20" x="80%+15">N</text>
+  </svg>
+  <svg>
+    <text y="74%+20" x="10%+15">S</text>
+    <text y="74%+20" x="17%+15">E</text>
+    <text y="74%+20" x="24%+15">V</text>
+    <text y="74%+20" x="31%+15">E</text>
+    <text y="74%+20" x="38%+15">N</text>
+    <text y="74%+20" x="45%+15">T</text>
+    <text y="74%+20" x="52%+15">W</text>
+    <text y="74%+20" x="59%+15">E</text>
+    <text y="74%+20" x="66%+15">L</text>
+    <text y="74%+20" x="73%+15">V</text>
+    <text y="74%+20" x="80%+15">E</text>
+  </svg>
+  <svg>
+    <text y="82%+20" x="10%+15">T</text>
+    <text y="82%+20" x="17%+15">E</text>
+    <text y="82%+20" x="24%+15">N</text>
+    <text y="82%+20" x="31%+15">S</text>
+    <text y="82%+20" x="38%+15">E</text>
+    <text y="82%+20" x="45%+15">O'</text>
+    <text y="82%+20" x="52%+15">C</text>
+    <text y="82%+20" x="59%+15">L</text>
+    <text y="82%+20" x="66%+15">O</text>
+    <text y="82%+20" x="73%+15">C</text>
+    <text y="82%+20" x="80%+15">K</text>
+  </svg>
+</svg>

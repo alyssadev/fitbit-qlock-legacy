@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "1b08efb5-c9b3-4995-bd04-825a9e48278e",
+    "appType": "clockface",
+    "appDisplayName": "qlock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "qlock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
