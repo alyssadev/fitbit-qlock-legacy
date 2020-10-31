@@ -27,7 +27,8 @@ function showWord(word) {
 function hideAll() {
     for (let i = 0; i <= 9; i++) {
         for (let j = 0; j <= 10; j++) {
-            getItem(i, j).style.fill = "#444444";
+            if (!(i == 0 && j <= 4)) // leave "it is" lit
+                getItem(i, j).style.fill = "#444444";
         }
     }
 }
@@ -45,9 +46,9 @@ const it = [[0, 0], [0, 1]],
       four = [[6, 0], [6, 1], [6, 2], [6, 3]],
       five = [[2, 6], [2, 7], [2, 8], [2, 9]],
       six = [[5, 3], [5, 4], [5, 5]],
-      seven = [[8, 0], [8, 1], [8, 2]],
-      eight = [[7, 0], [7, 1], [7, 3]],
-      nine = [[4, 7], [4, 8], [4, 9]],
+      seven = [[8, 0], [8, 1], [8, 2], [8, 3], [8, 4]],
+      eight = [[7, 0], [7, 1], [7, 2], [7, 3], [7, 4]],
+      nine = [[4, 7], [4, 8], [4, 9], [4, 10]],
       ten = [[3, 5], [3, 6], [3, 7]],
       five_hour = [[6, 4], [6, 5], [6, 6], [6, 7]],
       ten_hour = [[9, 0], [9, 1], [9, 2]],
@@ -60,13 +61,10 @@ const it = [[0, 0], [0, 1]],
 function showTime(d) {
     hideAll();
 
-    showWord(it);
-    showWord(is);
-
     let hour = d.getHours(),
         minute = d.getMinutes();
-    //let hour = 5,
-    //    minute = 10;
+    //let hour = 7,
+    //    minute = 45;
 
     if (minute >= 58 || minute <= 2) { // xx:58 - xx:02
         showWord(oclock);
@@ -108,9 +106,16 @@ function showTime(d) {
         showWord(five);
         showWord(to);
     }
+  
+    if (minute >= 33) {
+      hour += 1; // 7:45 = "it is a quarter to eight"
+    }
 
     showWord(hours[hour % 12]);
 }
+
+showWord(it);
+showWord(is);
 
 // Update the <text> element every tick with the current time
 clock.ontick = (evt) => {
